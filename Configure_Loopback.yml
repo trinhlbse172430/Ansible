@@ -1,6 +1,6 @@
 ---
 - name: Configure Loopback Interface on Router104
-  hosts: routers
+  hosts: all
   gather_facts: no
   connection: network_cli
 
